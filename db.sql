@@ -1,10 +1,7 @@
-DROP DATABASE IF EXISTS techzone;
-CREATE DATABASE techzone;
-\c techzone;
 
 CREATE TABLE IF NOT EXISTS tienda (
     id serial PRIMARY KEY,
-    nombre VARCHAR(100),
+    nombre VARCHAR(100) UNIQUE,
     direccion VARCHAR(100),
     telefono VARCHAR(20)
 );

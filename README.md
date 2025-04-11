@@ -4,3 +4,12 @@ Mediante el siguiente proyecto se busca crear una base de datos teniendo en cuen
     teléfonos hasta accesorios y componentes electrónicos. Con el crecimiento del comercio digital y
     la alta demanda de dispositivos electrónicos, la empresa ha notado la necesidad de mejorar la
     gestión de su inventario y ventas.
+
+## Tabla de Contenido:
+Para la visualización de la base de datos realice el siguiente procedimiento:
+```
+CREATE DATABASE techzone;
+\c techzone;
+```
+
+1.[Creación Tablas](db.sql)
