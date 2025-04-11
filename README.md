@@ -15,7 +15,7 @@ CREATE DATABASE techzone;
 \c techzone;
 ```
 Posteriormente, ingrese a cada uno de los siguientes archivos
-1.[Creación Tablas](db.sql)
+1. [Creación Tablas](db.sql)
 2. [Inserción Datos](insert.sql)
 3. [Consultas](queries.sql)
 4. [Procedimientos](./procedureAndFunctions.sql)
