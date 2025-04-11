@@ -24,9 +24,10 @@ LIMIT 5;
 -- Consultar ventas realizadas en un rango de fechas de tres Días y un Mes.
 SELECT id AS Id_Venta, fecha_venta
 FROM venta
-WHERE fecha_venta 
+WHERE fecha_venta BETWEEN NOW() - INTERVAL '1 month' AND NOW() - INTERVAL '3 days';
+
 -- Identificar clientes que no han comprado en los últimos 6 meses.
 SELECT c.nombre AS Nombre_Cliente, c.apellido AS Apellido_Cliente
 FROM cliente c
-JOIN venta v ON c.id = v.id_cliente
-WHERE v.id_cliente IS NU
+LEFT JOIN venta v ON c.id = v.id_cliente
+WHERE v.id_cliente IS NULL OR v.fecha_venta < NOW() - INTERVAL '6 months';

@@ -68,7 +68,7 @@ INSERT INTO cliente (nombre, apellido, email, telefono) VALUES
 
 INSERT INTO venta (id_cliente, fecha_venta) VALUES
 (1, '2025-03-01'),
-(2, '2025-03-02'),
+(2, '2024-02-02'),
 (3, '2025-03-03'),
 (4, '2025-03-04'),
 (5, '2025-03-05'),
@@ -77,7 +77,7 @@ INSERT INTO venta (id_cliente, fecha_venta) VALUES
 (8, '2025-03-08'),
 (9, '2025-03-09'),
 (10, '2025-03-10'),
-(11, '2025-03-11'),
+(11, '2024-02-11'),
 (12, '2025-03-12'),
 (13, '2025-03-13'),
 (14, '2025-03-14'),
